@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 5%;
+  }
+  
+  body {
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    color: #00552a;
+    background-color: #B0C1D9;
+  }
+  
+  .header {
+    text-align: center;
+    color: #00552a;
+  }
+  
+  .header li {
+    display: inline-block;
+    margin: 1em;
+    list-style: none;
+    font-size: 1.3em;
+  }
+  
+  .climateBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    background: url(Climate/bg1.jpeg) no-repeat fixed;
+    border: 0.1em #264F73 solid;
+  }
+  
+  .startQuiz,
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+    border: 0.1em #264F73 solid;
+    background-color: #B0C1D9;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  .images {
+    margin-bottom: 0.5em;
+    width: 90%;
+    max-width: 240px;
+  }
+  
+  h1,
+  h3,
+  legend {
+    margin-bottom: 0.5em;
+  }
+  
+  .answerOption {
+    margin-top: 0.5em;
+  }
+  
+  .button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 3em;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    border: 0.1em #264F73 solid;
+    background-color: #264F73;
+    color: #ffffff;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #778BA6;
+    color: #264F73;
+    border: 0.1em #264F73 solid;
+  }
+  
+  .final {
+    display: block;
+  }
+  
+  @media only screen and (min-width: 320px) {
+  
+    .climateBox {
+      width: 90%;
+      height: 31em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+    }
+  
+    .box {
+      width: 90%;
+      height: 90%;
+    }
+  
+    .images {
+      width: 85%;
+    }
+  
+    .button {
+      margin-top: 0.5em;
+      font-size: 1em;
+      width: 8em;
+      height: 2.5em;
+    }
+  
+    h1,
+    h3,
+    legend {
+      font-size: 1em;
+    }
+  
+    .header li {
+      font-size: 1em;
+    }
+  
+    .sizeMe {
+      font-size: 0.9em;
+      margin: 0.1em;
+    }
+  }
+  
+  @media only screen and (min-width: 550px) {
+    .climateBox {
+      width: 29.5em;
+      height: 31.5em;
+      padding-top: 2.6em;
+      padding-bottom: 2.6em;
+    }
+  
+    .box {
+      width: 85%;
+      height: 98%;
+    }
+  
+    .button {
+      margin-top: 1em;
+      font-size: 1em;
+      width: 10em;
+      height: 2.5em;
+    }
+  
+    h1,
+    h3,
+    legend {
+      font-size: 1em;
+    }
+  
+    .sizeMe {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {  
+    .header li {
+      margin: 1em;
+      font-size: 1.3em;
+    }
+  
+    .climateBox {
+      width: 35em;
+      height: 38em;
+    }
+  
+    .box {
+      width: 85%;
+      height: 95%;
+    }
+  
+    h1,
+    h3,
+    legend {
+      font-size: 1.3em;
+    }
+  
+    .sizeMe {
+      font-size: 1em;
+    }
+  
+    .button {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      width: 12em;
+      font-size: 1.2em;
+    }
+  }
+  
