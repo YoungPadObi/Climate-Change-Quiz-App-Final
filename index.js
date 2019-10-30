@@ -147,7 +147,7 @@ const STORE = [
   function correctAnswer() {
     $('.response').html(
       `<h3>That's Right!</h3>
-      <img src="climate/correct1.jpeg" alt="happy fox" class="images" width="200px">
+      <img src="correct1.jpeg" alt="happy fox" class="images" width="200px">
         <p class="sizeMe">Nice Job!</p>
         <button type="button" class="nextButton button">Next</button>`
     );
@@ -158,7 +158,7 @@ const STORE = [
   function wrongAnswer() {
     $('.response').html(
       `<h3>So Close!</h3>
-      <img src="climate/wrong.jpeg" alt="earth- half on fire" class="images" width="200px">
+      <img src="wrong.jpeg" alt="earth- half on fire" class="images" width="200px">
       <p class="sizeMe">It's actually:</p>
       <p class="sizeMe">${STORE[questionNumber].correctAnswer}</p>
       <button type="button" class="nextButton button">Next</button>`
@@ -181,21 +181,21 @@ const STORE = [
   
     const great = [
       'Great job!',
-      'climate/correct.jpeg',
+      'correct.jpeg',
       'captain planet and co',
       'We might have to crown you the new Captain Planet!'
     ];
   
     const good = [
       'Good Job!',
-      'climate/bg.jpeg',
+      'bg.jpeg',
       'ice slowly melting',
       'Check Out https://foe.org/ for more info!'
     ];
   
     const bad = [
       'Try Again, you got this!',
-      'climate/wrong.jpg',
+      'wrong.jpg',
       'iceberg collapsing',
       'Hit Restart To Try Again!'
     ];
