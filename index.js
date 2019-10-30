@@ -183,21 +183,21 @@ const STORE = [
       'Great job!',
       'correct.jpeg',
       'captain planet and co',
-      'We might have to crown you the new Captain Planet!'
+      'We might have to crown you the new Captain Planet! <br> Check Out- <a href="https://foe.org/" target="blank">FOE</a> -for more info!'
     ];
   
     const good = [
       'Good Job!',
       'bg.jpeg',
       'ice slowly melting',
-      'Check Out https://foe.org/ for more info!'
+      'Check Out- <a href="https://foe.org/" target="blank">FOE</a> -for more info!'
     ];
   
     const bad = [
       'Try Again, you got this!',
       'wrong.jpg',
       'iceberg collapsing',
-      'Hit Restart To Try Again!'
+      'Hit Restart To Try Again! <br> Check Out- <a href="https://foe.org/" target="blank">FOE</a> -for more info!'
     ];
   
     if (score >= 4) {
